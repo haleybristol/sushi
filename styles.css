@@ -40,9 +40,12 @@ div.image2 {
 h1, h2 {
   text-align: center;
 }
+* {
+  font-family: 'Marmelad', sans-serif;
 
+}
 header {
-    background-color: #C3C5E5;
+
     font-family: 'Marmelad', sans-serif;
     height: 350px;
 }
@@ -54,17 +57,27 @@ img {
 
 .kanji {
   float: left;
+  padding-top: 60px;
 }
 .kanji p {
   padding-left: 10px;
   padding-right: 50px;
-font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .row1 a {
   text-decoration: none;
   color: white;
   float: right;
+
+}
+
+div.row1 {
+    background-color: #2B2628;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 a#rsvp {
@@ -91,4 +104,14 @@ body {
   color: white;
   background-color: #C3C5E5;
 
+}
+
+footer {
+  background-color: #2B2628;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 10px;
 }
